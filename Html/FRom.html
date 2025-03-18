@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        body{
+            background-color: rgb(211, 232, 250);
+        }
+        
+    </style>
+ </head>
+ <body>
+    <h2 style="text-align: center;">Registration From</h2>
+    <form> 
+
+        <!-- for Name-->
+
+        <div> 
+            <label for="firstname">First name    : </label>
+        <input type="text" name="firstname" id="firstname" required> <!--must fillup-->
+    </div>
+    <br>
+     
+    
+
+    <div>
+        <label for="lastname">Last Name    : </label>
+        <input type="text" name="lastname" id="lastname">
+    </div>
+    <br>
+    <!-- for Email-->
+
+
+    <div> 
+        <label for="email">Email       :  </label>
+        <input type="email" name="email" id="e mail">
+    </div>
+    <br>
+     <!-- for Password-->
+
+    <div>
+        <label for="pas">Password    : </label>
+        <input type="password" name="pas" id="pas">
+    </div>
+    <br>
+
+    <!-- for Date of Birth-->
+
+    <div>
+        <label for="birth">Date of Birth   : </label>
+        <input type="date" name="birth" id="birth">
+    </div>
+    <br>
+    <!-- for file uploaded-->
+
+
+    <div>
+        <label for="image">Choose Your Image  :  </label>
+        <input type="file" name="image" id="image">
+    </div>
+    <br>
+    <!-- for Radio-->
+
+
+    <div>
+        <label for="gender">Gender  :  </label> 
+        <input type="radio" name="gender" id="gender" value="male">Male
+        <input type="radio" name="gender" id="gender" value="female">Female
+        <input type="radio" name="gender" id="gender" value="other">Other
+    </div>
+     <br>
+     <!-- for Checkbox-->
+
+     <div>
+        <label for="religion">Religion  : </label>
+        <input type="checkbox" name="religion" id="religion" value="muslim">Islam
+        <input type="checkbox" name="religion" id="religion" value="hindu">Hindu
+        <input type="checkbox" name="religion" id="religion" value="other">Other
+
+    </div><br>
+
+    <!--Dropdown box-->
+    <div>
+        <label for="department">Department  :</label>
+       <select name="department">
+        <option value="cse">CSE</option>
+        <option value="eee" selected>EEE</option>
+        <option value="math">Math</option>
+        <option value="physics">Physics</option>
+       </select>
+    </div>
+    <br>
+
+    <!--Text Area-->
+
+    <div>
+        <label for="message">Message</label>
+        <br>
+        <textarea cols="40" rows="10"></textarea>
+    </div>
+    <br>
+
+
+    <!--Button-->
+    <div> 
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear" disabled>  <!-- don not work-->
+        </div>
+
+
+
+    </form>
+ </body>
+ </html>
